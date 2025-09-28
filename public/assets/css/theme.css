@@ -3515,14 +3515,14 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #616161;
-  background-color: #FFB30E;
-  border-color: #FFB30E;
+  background-color:#145C3D;
+  border-color: #145C3D;;
 }
 
 .btn-primary:hover {
   color: #616161;
-  background-color: #ffbe32;
-  border-color: #ffbb26;
+  background-color: #072F21;
+  border-color: #072F21;
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -3720,14 +3720,14 @@ fieldset:disabled .btn {
 
 .btn-danger {
   color: #FFFEFE;
-  background-color: #F17228;
-  border-color: #F17228;
+  background-color:#145C3D;
+  border-color: #145C3D;
 }
 
 .btn-danger:hover {
   color: #FFFEFE;
-  background-color: #cd6122;
-  border-color: #c15b20;
+  background-color:#072F21;
+  border-color: #072F21;
 }
 
 .btn-check:focus + .btn-danger, .btn-danger:focus {
@@ -4771,6 +4771,7 @@ fieldset:disabled .btn {
   padding-right: 1rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
+  background-color: #092C1F !important;
 }
 
 .navbar > .container,
@@ -9620,7 +9621,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-  background-color: #FFB30E !important;
+  background-color: #092C1F !important;
 }
 
 .bg-secondary {
@@ -17571,8 +17572,9 @@ ul {
 }
 
 .text-gradient {
-  background: -o-linear-gradient(40deg, #fb3c00, #ffb800);
-  background: linear-gradient(50deg, #fb3c00, #ffb800);
+  /*background: -o-linear-gradient(40deg, #fb3c00, #ffb800); */
+  /*background: linear-gradient(50deg, #fb3c00, #ffb800);*/
+  background: linear-gradient(50deg, #082C1F, #145C3D, #1FA567);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
